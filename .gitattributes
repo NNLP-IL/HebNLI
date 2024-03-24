@@ -1,2 +1,0 @@
-HebNLI.csv filter=lfs diff=lfs merge=lfs -text
-HebNLI.json filter=lfs diff=lfs merge=lfs -text
