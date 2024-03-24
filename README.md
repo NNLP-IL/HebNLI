@@ -23,7 +23,7 @@ HebNLI comprises 7 of the original 10 genres/sources that appeared in MultiNLI:
 The remaining three sources were found to either be too English-oriented to be properly translated to Hebrew by machine translation ("Verbatim" magazine source), or included too many broken sentences and filler-words to be properly translated to Hebrew by machine translation (face-to-face conversations and telephone conversations sources). 
 
 ## Dataset Statistics
-The table below shows the number of answerable and unanswerable questions in each source and split of HeQ:
+The table below shows the distribution of each source corpus within HebNLI (how many setences exist in the dataset from each source).
 
 | Genre/Source     |  HebNLI Corpus   |
 |------------------|------------------|
