@@ -37,7 +37,7 @@ The table below shows the number of answerable and unanswerable questions in eac
 
 Total # of sentences = 303,383.
 
-### Hebrew Paper
+### HebNLI Blog Post
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 ### Original MultiNLI Paper
