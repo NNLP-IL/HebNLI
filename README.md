@@ -37,6 +37,8 @@ The table below shows the distribution of each source corpus within HebNLI (how 
 
 Total # of sentences = 303,383.
 
+## Literature
+
 ### HebNLI Blog Post
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
