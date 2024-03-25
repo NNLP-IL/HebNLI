@@ -51,7 +51,7 @@ https://cims.nyu.edu/~sbowman/multinli/paper.pdf
 ## Contributors
 HebNLI was translated and checked for quality by Webiks for MAFAT, as part of the National Natural Language Processing Plan of Israel. 
 
-Contributors: Hilla Merhav Fine (Webiks), Yaniv Maylik (Webiks), Carrine Cherf (Webiks), Tal Geva (MAFAT).
+Contributors: Hilla Merhav Fine (Webiks), Yaniv Maylik (Webiks), Carinne Cherf (Webiks), Tal Geva (MAFAT).
 
 ## Acknowledgments
 We would like to express our gratitude to Adina Williams, Nikita Nangia and Samuel R. Bowman, the creators of [the original NLI dataset MultiNLI](https://huggingface.co/datasets/nyu-mll/multi_nli).
