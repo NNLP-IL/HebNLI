@@ -39,8 +39,8 @@ Total # of sentences = 303,383.
 
 ## Literature
 
-### HebNLI Blog Post
-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+### HebNLI Post
+https://www.facebook.com/groups/MDLI1/posts/2675912835906081/
 
 ### HebNLI PDF
 You can find a detailed PDF file summarizing the work done on HebNLI in the repository's file section.
