@@ -40,6 +40,9 @@ Total # of sentences = 303,383.
 ### HebNLI Blog Post
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
+### HebNLI PDF
+You can find a detailed PDF file summarizing the work done on HebNLI in the repository's file section.
+
 ### Original MultiNLI Paper
 https://cims.nyu.edu/~sbowman/multinli/paper.pdf
 
