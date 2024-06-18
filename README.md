@@ -22,20 +22,28 @@ HebNLI comprises 7 of the original 10 genres/sources that appeared in MultiNLI:
 
 The remaining three sources were found to either be too English-oriented to be properly translated to Hebrew by machine translation ("Verbatim" magazine source), or included too many broken sentences and filler-words to be properly translated to Hebrew by machine translation (face-to-face conversations and telephone conversations sources). 
 
-## Dataset Statistics
+## Dataset Statistics (Updated for HebNLI ver1.1)
 The table below shows the distribution of each source corpus within HebNLI (how many setences exist in the dataset from each source).
 
 | Genre/Source     |  HebNLI Corpus   |
 |------------------|------------------|
-| Nine eleven      |   1878           |
-| Government       |   76953          |
-| Letters          |   1974           |
-| OUP              |   1986           |
-| Slate            |   71082          |
-| Travel           |   75776          |
-| Fiction          |   73734          |
+| Nine eleven      |   1869           |
+| Government       |   76709          |
+| Letters          |   1966           |
+| OUP              |   1979           |
+| Slate            |   70755          |
+| Travel           |   75526          |
+| Fiction          |   73346          |
 
-Total # of sentences = 303,383.
+Total # of sentences = 302,150.
+
+## HebNLI Gold set
+We have additioinally created a Gold set for HebNLI which contains 1011 pairs of sentences. The translations for the sentences in the Gold set were manually verfied by two taggers who are linguists - in cases where the automatic translation provided by Google Gemini was deemed good it was left as it is, while in cases where the auto-translations were false or not natural/idiomatic enough to a Hebrew speaker they were retranslated manually by the tagger. The 1011 sentences in the Gold set were also manually tagged for their logical relation (Entailment, Neutral, Contradiction) by both linguists.
+The percantage of agreement between the two Hebrew taggers for the Hebrew sentences is 87.44%.
+
+The percantage of agreement between the tags assigned by the Hebrew taggers to the tags assigned by the English taggers (in the original English dataset) is:
+Tagger 1 - 87.83%
+Tagger 2 - 88.33%
 
 ## Literature
 
