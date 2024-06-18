@@ -42,8 +42,11 @@ We have additioinally created a Gold set for HebNLI which contains 1011 pairs of
 The percantage of agreement between the two Hebrew taggers for the Hebrew sentences is 87.44%.
 
 The percantage of agreement between the tags assigned by the Hebrew taggers to the tags assigned by the English taggers (in the original English dataset) is:
+
 Tagger 1 - 87.83%
+
 Tagger 2 - 88.33%
+
 
 ## Literature
 
