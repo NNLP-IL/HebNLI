@@ -38,7 +38,7 @@ The table below shows the distribution of each source corpus within HebNLI (how 
 Total # of sentences = 302,150.
 
 ## HebNLI Gold set
-Additionally, we have created a Gold set for HebNLI which contains 1011 pairs of sentences. The translations for the sentences in the Gold set were manually verfied by two taggers who are linguists - in cases where the automatic translation provided by Google Gemini was deemed good it was left as it is, while in cases where the auto-translations were false or not natural/idiomatic enough to a Hebrew speaker they were retranslated manually by the tagger. The 1011 sentences in the Gold set were also manually tagged for their logical relation (Entailment, Neutral, Contradiction) by both linguists.
+Additionally, we have created a Gold set for HebNLI which contains 1011 pairs of sentences. These sentences were randomlly chosen from HebNLI, and were omitted from it such that sentence pairs appearing in the Gold set no longer appear in HebNLI's ver 1.1. The translations for the sentences in the Gold set were manually verfied by two taggers who are linguists - in cases where the automatic translation provided by Google Gemini was deemed good it was left as it is, while in cases where the auto-translations were false or not natural/idiomatic enough to a Hebrew speaker they were retranslated manually by the tagger. The 1011 sentences in the Gold set were also manually tagged for their logical relation (Entailment, Neutral, Contradiction) by both linguists.
 The percantage of agreement between the two Hebrew taggers for the Hebrew sentences is 87.44%.
 
 The percantage of agreement between the tags assigned by the Hebrew taggers to the tags assigned by the English taggers (in the original English dataset) is:
