@@ -45,13 +45,21 @@ The percantage of agreement between the two Hebrew taggers for the Hebrew senten
 Below is a description of the data found in the HebNLI and the Gold set files:
 
 original_annotator_labels = All the original labels assigned by the English taggers in the original English dataset (MultiNLI) presented as a list.
+
 genre = The genre (source) to which the pair of sentence belong (Government, Letters, Slate Magazine, Travel, Fiction etc.)
+
 original_label = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by the majority).
+
 pairID + promptID = unique identifiers for each pair of sentences
+
 sentence1 = The first sentence of the English pair of sentences.
+
 translation1 = The Hebrew translation of English "sentence1".
+
 sentence2 = The second sentence of the English pair of sentences.
+
 translation2 = The Hebrew translation of English "sentence2".
+
 hebrew_label (found only in the Gold set) = The label assigned manually by the Hebrew taggers.
 
 
