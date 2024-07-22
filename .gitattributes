@@ -1,3 +1,4 @@
 HebNLI_1.1.csv filter=lfs diff=lfs merge=lfs -text
 json-hebnli_1.1.json filter=lfs diff=lfs merge=lfs -text
 HebNLI_v2.csv filter=lfs diff=lfs merge=lfs -text
+HebNLI_v2.json filter=lfs diff=lfs merge=lfs -text
