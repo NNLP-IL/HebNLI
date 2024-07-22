@@ -50,7 +50,7 @@ Below is a description of the data found in the HebNLI and the Gold set files:
 
 3. **original_label** = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by majority).
 
-4. **pairID** and **promptID** = unique identifiers for each pair of sentences
+4. **pairID** and **promptID** = unique identifiers for each pair of sentences.
 
 5. **sentence1** = The first sentence of the English pair of sentences.
 
