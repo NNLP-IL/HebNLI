@@ -44,24 +44,23 @@ The percantage of agreement between the two Hebrew taggers for the Hebrew senten
 ## Dataset Details
 Below is a description of the data found in the HebNLI and the Gold set files:
 
-**original_annotator_labels** = All the original labels assigned by the English taggers in the original English dataset (MultiNLI) presented as a list.
+1. **original_annotator_labels** = All the original labels assigned by the English taggers in the original English dataset (MultiNLI) presented as a list.
 
-**genre** = The genre (source) to which the pair of sentence belong (Government, Letters, Slate Magazine, Travel, Fiction etc.)
+2. **genre** = The genre (source) to which the pair of sentence belong (Government, Letters, Slate Magazine, Travel, Fiction etc.)
 
-**original_label** = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by the majority).
+3. **original_label** = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by the majority).
 
-**pairID** and **promptID** = unique identifiers for each pair of sentences
+4. **pairID** and **promptID** = unique identifiers for each pair of sentences
 
-**sentence1** = The first sentence of the English pair of sentences.
+5. **sentence1** = The first sentence of the English pair of sentences.
 
-**translation1** = The Hebrew translation of English "sentence1".
+6. **translation1** = The Hebrew translation of English "sentence1".
 
-**sentence2** = The second sentence of the English pair of sentences.
+7. **sentence2** = The second sentence of the English pair of sentences.
 
-**translation2** = The Hebrew translation of English "sentence2".
+8. **translation2** = The Hebrew translation of English "sentence2".
 
-**hebrew_label** (found only in the Gold set) = The label assigned manually by the Hebrew taggers.
-
+9. **hebrew_label** (found only in the Gold set) = The label assigned manually by the Hebrew taggers.
 
 
 
