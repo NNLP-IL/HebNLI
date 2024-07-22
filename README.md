@@ -48,7 +48,7 @@ Below is a description of the data found in the HebNLI and the Gold set files:
 
 2. **genre** = The genre (source) to which the pair of sentence belong (Government, Letters, Slate Magazine, Travel, Fiction etc.)
 
-3. **original_label** = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by the majority).
+3. **original_label** = The final English label assigned to the pairs of sentences by the English taggers (either by consensus or by majority).
 
 4. **pairID** and **promptID** = unique identifiers for each pair of sentences
 
