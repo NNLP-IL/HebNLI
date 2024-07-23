@@ -22,7 +22,7 @@ HebNLI comprises 7 of the original 10 genres/sources that appeared in MultiNLI:
 
 The remaining three sources were found to either be too English-oriented to be properly translated to Hebrew by machine translation ("Verbatim" magazine source), or included too many broken sentences and filler-words to be properly translated to Hebrew by machine translation (face-to-face conversations and telephone conversations sources). 
 
-## Dataset Statistics (Updated for HebNLI ver2.0)
+## Dataset Statistics
 The table below shows the distribution of each source corpus within HebNLI (how many setences exist in the dataset from each source).
 
 | Genre/Source     |  HebNLI Corpus   |
@@ -38,7 +38,7 @@ The table below shows the distribution of each source corpus within HebNLI (how 
 Total # of sentences = 302,150.
 
 ## HebNLI Gold set
-Additionally, we have created a Gold set for HebNLI which contains 884 pairs of sentences. These sentences were randomlly chosen from HebNLI, and were omitted from it such that sentence pairs appearing in the Gold set no longer appear in HebNLI's ver 2.0. The translations for the sentences in the Gold set were manually verfied by two taggers who are linguists - in cases where the automatic translation provided by Google Gemini was deemed good it was left as is, while in cases where the auto-translations were false or not natural/idiomatic enough to a Hebrew speaker they were retranslated manually by the tagger. The 884 sentences in the Gold set were also manually tagged for their logical relation (Entailment, Neutral, Contradiction) by both linguists.
+Additionally, we have created a Gold set for HebNLI which contains 884 pairs of sentences. These sentences were randomlly chosen from HebNLI, and were omitted from it such that sentence pairs appearing in the Gold set no longer appear in HebNLI. The translations for the sentences in the Gold set were manually verfied by two taggers who are linguists - in cases where the automatic translation provided by Google Gemini was deemed good it was left as is, while in cases where the auto-translations were false or not natural/idiomatic enough to a Hebrew speaker they were retranslated manually by the tagger. The 884 sentences in the Gold set were also manually tagged for their logical relation (Entailment, Neutral, Contradiction) by both linguists.
 The percantage of agreement between the two Hebrew taggers for the Hebrew sentences was 87.44% (on originally 1010 pairs of sentences), which gave rise to the final 884 pairs of sentences in the final version of the Gold set which contains a single Hebrew label agreed upon by both Hebrew taggers.
 
 ## Dataset Details
