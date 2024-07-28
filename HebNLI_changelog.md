@@ -60,34 +60,81 @@ In the latest release the gold set is used as the test set and its keys were ren
 
 ## Dataset Statistics in each release
 
-Initial release:                                     Interim release:                                                
+### Initial release:                                                                             
 
-| Genre/Source     |  HebNLI Corpus   |              | Genre/Source     |  HebNLI Corpus   |                
-|------------------|------------------|              |------------------|------------------|
-| Nine eleven      |   1878           |              | Nine eleven      |   1869           |
-| Government       |   76953          |              | Government       |   76709          |
-| Letters          |   1974           |              | Letters          |   1966           |
-| OUP              |   1986           |              | OUP              |   1979           |
-| Slate            |   71082          |              | Slate            |   70755          |
-| Travel           |   75776          |              | Travel           |   75526          |
-| Fiction          |   73734          |              | Fiction          |   73346          |
+| Genre/Source     |  HebNLI Corpus   |                 
+|------------------|------------------|   
+| Nine eleven      |   1878           |     
+| Government       |   76953          |
+| Letters          |   1974           |    
+| OUP              |   1986           |    
+| Slate            |   71082          |  
+| Travel           |   75776          | 
+| Fiction          |   73734          |              
 
-Total # of sentences = 303,383.                      Total # of sentences = 302,150
+Total # of sentences = 303,383.                      
+
+
+### Interim release:                                                
+
+| Genre/Source     |  HebNLI Corpus   |                
+|------------------|------------------|
+| Nine eleven      |   1869           |
+| Government       |   76709          |
+| Letters          |   1966           |
+| OUP              |   1979           |
+| Slate            |   70755          |
+| Travel           |   75526          |
+| Fiction          |   73346          |
+
+Total # of sentences = 302,150
+
+
 ________________________________________________________________________________________________
 
 
-Latest release:
+### Latest release:
 
-train set:                                  val set:                                    test set (formerly the gold set):
+### Train set:                         
 
-| Genre/Source     |  HebNLI Corpus   |     | Genre/Source     |  HebNLI Corpus   |     | Genre/Source     |  HebNLI Corpus   |                
-|------------------|------------------|     |------------------|------------------|     |------------------|------------------|
-| Nine eleven      |   1852           |     | Nine eleven      |   17             |     | Nine eleven      |   6              |
-| Government       |   76183          |     | Government       |   526            |     | Government       |   206            |
-| Letters          |   1953           |     | Letters          |   13             |     | Letters          |   7              |
-| OUP              |   1965           |     | OUP              |   14             |     | OUP              |   4              |
-| Slate            |   70306          |     | Slate            |   449            |     | Slate            |   215            |
-| Travel           |   75030          |     | Travel           |   496            |     | Travel           |   223            |
-| Fiction          |   72861          |     | Fiction          |   485            |     | Fiction          |   223            |
+| Genre/Source     |  HebNLI Corpus   |             
+|------------------|------------------|
+| Nine eleven      |   1852           |
+| Government       |   76183          |
+| Letters          |   1953           |
+| OUP              |   1965           |
+| Slate            |   70306          |
+| Travel           |   75030          |
+| Fiction          |   72861          | 
 
-Total # of sentences = 300,150              Total # of sentences = 2,000                Total # of sentences = 884
+Total # of sentences = 300,150                      
+
+
+### Val set:                                 
+
+| Genre/Source     |  HebNLI Corpus   |          
+|------------------|------------------|  
+| Nine eleven      |   17             |  
+| Government       |   526            |   
+| Letters          |   13             |   
+| OUP              |   14             |  
+| Slate            |   449            |  
+| Travel           |   496            |  
+| Fiction          |   485            |
+
+Total # of sentences = 2,000 
+
+
+### Test set (formerly the gold set):
+
+| Genre/Source     |  HebNLI Corpus   |          
+|------------------|------------------|  
+| Nine eleven      |   6              |  
+| Government       |   206            |   
+| Letters          |   7              |   
+| OUP              |   4              |  
+| Slate            |   215            |  
+| Travel           |   223            |  
+| Fiction          |   223            |
+
+Total # of sentences = 884
